@@ -196,3 +196,50 @@ body > main > h2{
 }
 
 /* time=2hrs */
+
+
+
+@media screen and  (max-width:480px)  {
+    body > header > nav > div.navbuttons{
+        display: none;
+      }
+    
+      .section-one{
+          display: flex;
+          flex-wrap: wrap;
+
+      }
+      .section-one>.left{
+          margin:20px;
+      }
+      .section-one>.right>img{
+          /* height: 50px; */
+          height: 300px;
+      }
+      .section-two{
+          display: flex;
+          flex-wrap: wrap;
+          
+      }
+      .section-two>.left>img{
+          height: 350px;
+          margin: 0px;
+      }
+      .section-two>.right>h2{
+        margin:20px;
+      }
+      .section-two>.right>.subheadding{
+          margin: 20px;
+      }
+      .section-two>.right>p{
+          margin: 25px 25px 50px 25px;
+      }
+
+      .cards{
+          display: flex;
+          flex-wrap: wrap;
+          margin:25px 50px 50px 25px;
+          gap: 25px;
+      }
+
+    }
